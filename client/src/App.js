@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Register from "./components/auth/register";
 import SignIn from "./components/auth/signin";
 import ResetPassword from "./components/auth/resetpassword";
-import Profile from "./components/profile/profile";
+import Profile from "./components/dashboard/profile";
 import PrivateRoute from "./components/routing/privateroute";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
