@@ -36,7 +36,6 @@ const App = () => {
               <Route path='/register' component={Register} />
               <Route path='/resetpassword' component={ResetPassword} />
               <PrivateRoute exact path='/profile' component={Profile} />
-              <PrivateRoute exact path='/dashboard' component={Dashboard} />
             </Switch>
           </div>
         </Fragment>
