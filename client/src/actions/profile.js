@@ -31,8 +31,6 @@ export const addFiles = formData => async dispatch => {
         });
 
         dispatch(setAlert("File Added", "success"));
-
-        history.push("/profile");
     } catch (err) {
         const errors = err.response.data.errors;
 
