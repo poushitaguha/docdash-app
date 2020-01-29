@@ -133,6 +133,7 @@ router.post("/files", [auth, upload.single("file")], async (req, res) => {
             profile = new Profile(profileFields);
             profile.files.unshift(newFile);
             await profile.save();
+            return res.json(profile);
         }
     } catch (err) {
         console.error(err.message);
